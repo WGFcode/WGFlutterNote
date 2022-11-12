@@ -2,8 +2,7 @@
 import 'package:flutter/material.dart';
 
 class WGTextWeight extends StatelessWidget {
-  const WGTextWeight({super.key});
-
+  const WGTextWeight({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return const Text(
